@@ -9,11 +9,11 @@ import com.aws.awsnew.model.Me;
 public class Controller {
 	@GetMapping("")
 	public String welcome() {
-		return "Welcome to the world of magic";
+		return "Welcome to the world of magic V2";
 	}
 	@GetMapping("/details")
 	public Me me() {
-		return new Me("najeeb","rahman",24,"Saleena Manzil");
+		return new Me("najeeb","rahman",24,"Saleena Manzil Kathiruvila Kallara");
 	}
 
 }
